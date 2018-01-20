@@ -1,4 +1,4 @@
-package wang.congjun.nio;
+package wang.congjun.nio.demo1;
 
 import wang.congjun.nio.demo.MsgHandler;
 
@@ -51,7 +51,7 @@ public abstract class Nio002_selector {
 
                         sc.register(selector, SelectionKey.OP_READ);
                         System.out.println("新连接加入.....");
-                        msgHandler.write(sc,selector);
+                        msgHandler.write(sc);
 
                     }
                     /**

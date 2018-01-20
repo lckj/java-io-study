@@ -1,4 +1,4 @@
-package wang.congjun.nio;
+package wang.congjun.nio.demo1;
 
 import wang.congjun.nio.demo.MsgHandler;
 

@@ -11,9 +11,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="java-io-netty" target="1.5" />
-      <module name="java-io-nio" target="1.5" />
-      <module name="java-io-study" target="1.5" />
+      <module name="java-io-netty" target="1.8" />
+      <module name="java-io-nio" target="1.8" />
+      <module name="java-io-study" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

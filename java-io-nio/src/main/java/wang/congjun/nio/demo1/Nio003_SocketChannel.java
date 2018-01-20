@@ -1,14 +1,11 @@
-package wang.congjun.nio;
+package wang.congjun.nio.demo1;
 
 import wang.congjun.nio.demo.MsgHandler;
 
-import java.io.IOException;
 import java.net.InetSocketAddress;
-import java.nio.ByteBuffer;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.SocketChannel;
-import java.util.Scanner;
 
 /**
  * Created by wangcongjun on 2017/7/8.
